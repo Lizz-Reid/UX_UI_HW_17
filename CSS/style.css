@@ -1,35 +1,65 @@
+body {
+    background-color: #FFF2F2;
+}
 
-.inline-block {
-    display: inline;
-    vertical-align: top;
+.navigation {
+    display: flex;
+    flex-direction: row;
+    width: 96.4%;
+    margin-left: 1.8%;
+    align-items: center;
+    height: 60px;
 }
 
 .logo {
-    width: 23%;
+    width: 52px;
+    height: 52px;
     padding: 1%;
     text-align: center;
-    background-color: blue;
 }
 
-.nav {
-    width: 73%;
-    padding: 1%;
+.inline-block {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 70%;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.options b {
+    padding-left: 60px;
+    font-size: 20px;
+    font-family: "lora";
+    font-style: bold;
+    cursor: pointer;
+  }
+.navigation h1 {
+    width: 50%;
+    font-size: 32px;
+    color: #870A30;
+    font-family: 'lora';
+    cursor:zoom-in
+}
+
 
 .options {
-    width: 50%;
-    margin-left: auto;
-    list-style-type: none;
-
-    color: blueviolet;   
+    display: flex;
+    flex-direction: row;
+    color: #870A30; 
+    align-items: left;
+    
 }
 
 .list {
     width: 50%;
     margin-left: auto;
     list-style-type: none;
-
-    color: blueviolet;
+    color: #870A30;
 }
 
 .heroImg {
@@ -51,3 +81,4 @@
     display: inline-block;
     vertical-align: top;
 }
+
