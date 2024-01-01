@@ -38,12 +38,12 @@ ul {
     font-style: bold;
     cursor: pointer;
   }
-.navigation h1 {
+.navigation h4 {
     width: 50%;
     font-size: 32px;
     color: #870A30;
     font-family: 'lora';
-    cursor:zoom-in
+    cursor:pointer;
 }
 
 
@@ -51,7 +51,7 @@ ul {
     display: flex;
     flex-direction: row;
     color: #870A30; 
-    align-items: left;
+    align-items: right;
     
 }
 
@@ -64,12 +64,62 @@ ul {
 
 .heroImg {
     height: 600px;
-    padding: 25px;   
+    padding: 25px;
+
+    
 }
 
 .content {
     width: 500px;
-    margin: 0% auto;
+    margin-left: 155px;
+    background-color: blue; 
+
+}
+
+.rolebox {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 155px;
+    width: 1000px;
+}
+
+.selfiebox {
+    display: flex;  
+    flex-wrap: wrap;
+    margin-left: 155px;
+    margin-top: 6%;
+}
+
+.seflie {
+    width: 602px;
+    height: 615px;
+    margin-left: 155px;
+    background-color: green;
+    margin-top: 20px;
+}
+
+.role {
+    font-size: 96px;
+    font-family: 'Lora', serif;
+    margin-left: 200px;
+    font-style: italic;
+
+}
+
+.designValue {
+    font-size: 96px;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    padding-left: 600px;
+    width: 805px;
+    color: #FFF2F2;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.rolebox b {
+    padding-bottom: 1px;
 }
 
 .footer {
