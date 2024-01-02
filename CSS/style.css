@@ -74,10 +74,10 @@ ul {
 
 .content {
     display: grid;
-    width: 418px;
-    height: 185px;
-    margin-left: 600px;
-    margin-top: 480px;
+    width: 360px;
+    height: 160px;
+    margin-left: 630px;
+    margin-top: 460px;
     background-color: #FAD2E0; 
     grid-template-rows: 33% 33% 33%;
     grid-template-columns: 18% 82%;
@@ -89,7 +89,8 @@ ul {
 }
 
 .emailImg, .phoneImg, .linkImg {
-    width: 50px;
+    width: 40px;
+    height: 40px;
     margin-top: 6px;
     margin-bottom: 4px;
     padding-left: 18px;
@@ -97,17 +98,17 @@ ul {
 
 
 .email {
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'lato';   
 }
 
 .phone {
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'lato';
 }
 
 .link {
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'lato';
 }
 
@@ -126,7 +127,7 @@ ul {
 
 .seflie {
     width: 602px;
-    height: 615px;
+    height: 300px;
     margin-left: 155px;
     background-color: green;
     margin-top: 20px;
@@ -174,13 +175,68 @@ ul {
 }
 
 /*footer*/
-.foot {
-    background-color: #373738;
-    padding: 20px;
+#foot{
+    display: grid;
+    width: 100%;
+    height: 120px;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-areas: 
+        "f1 f2 f2"
+        "f3 f4 f4"
+        "f5 f6 f6"
+        "f7 f7 f8";
 }
 
-.footer ul {
-    display: inline-block;
-    vertical-align: top;
+.f1 {
+    grid-area: f1;
+    margin-left: 30%;
 }
+
+.f2 {
+    grid-area: f2;
+}
+
+.f3 {
+    grid-area: f3;
+    margin-left: 30%;
+}
+
+.f4 {
+    grid-area: f4;
+}
+
+.f5 {
+    grid-area: f5;
+    margin-left: 30%;
+}
+
+.f6 {
+    grid-area: f6;
+}
+
+.f7 {
+    grid-area: f7;
+    margin-left: 15%;
+
+}
+
+.f8 {
+    grid-area: f8;
+    padding-bottom: 70px;
+    text-align: right;
+    font-family: 'lato';
+    font-size: 14x;
+    margin-right: 30%;
+}
+
+.f1, .f2, .f3, .f4, .f5, .f6, .f7 {
+    text-align: left;
+    padding-bottom: 70px;
+    font-family: 'lato';
+    font-size: 18px;
+}
+
+
+
 
