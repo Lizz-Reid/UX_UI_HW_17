@@ -74,6 +74,9 @@ ul {
 
 .content {
     display: grid;
+    z-index: 100;
+    position: absolute;
+    box-shadow: 5px 5px 5px rgb(72, 72, 72, 0.6);
     width: 360px;
     height: 160px;
     margin-left: 630px;
@@ -121,6 +124,7 @@ ul {
 .selfiebox {
     display: flex;  
     flex-wrap: wrap;
+    z-index: -1;
     margin-left: 10%;
     margin-top: 6.5%;
 }
@@ -136,6 +140,8 @@ ul {
 .rolebox {
     display: flex;
     flex-direction: column;
+    z-index: 100;
+    position: absolute;
     margin-left: 155px;
     width: 1000px;
 }
@@ -156,7 +162,6 @@ ul {
     font-family: 'Lora', serif;
     font-style: italic;
     padding-left: 600px;
-
     height: 110px;
     color: #FFF2F2;
     -webkit-text-stroke-width: 1px;
@@ -168,6 +173,7 @@ ul {
 }
 
 .colourBlock {
+    z-index: -1;
     height: 250px;
     background-color: #870A30;
     margin-top: -125px;
